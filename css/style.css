@@ -1,0 +1,24 @@
+.nav-flex
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-color: flex-start;
+  background-image: url(images/1.jpeg); 
+}
+.nav-flex-item
+{
+	list-style-type: none;
+	padding: 10px;
+	margin-right: 5px;
+	border-left: 5px solid rgb(0, 0, 0);
+	text-transform: uppercase;
+	background-color: #000000;
+	background: #000000;
+}
+.nav-flex-item:hover
+{
+background-color: #666666;
+}
